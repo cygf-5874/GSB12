@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poolkit"
+version = "0.6.2"
+description = "Tiny fixed-size connection pool (stdlib only)"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+packages = ["poolkit"]
